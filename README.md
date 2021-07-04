@@ -1,2 +1,2 @@
 # DonggeMao
-this is jd mao
+学习试用
