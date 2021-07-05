@@ -65,7 +65,7 @@ fi
 
 ##############################  作  者  昵  称  &  脚  本  地  址  &  脚  本  名  称  （必填）  ##############################
 
-author_list="ftmn123 ZCY01 passerby-b LongZhuZhu Wenmoux panghu MoPoQAQ Andy Public Curtin"
+author_list="ftmn123 ZCY01 passerby-b LongZhuZhu Wenmoux panghu MoPoQAQ Andy Public"
 
 ## 京喜财富岛
 scripts_base_url_1=${DownloadJudgment}https://github.com/ftmn123/mt007/blob/master/
@@ -98,10 +98,6 @@ my_scripts_list_8="Andy_sendBeans.js"
 ## 京享值pk
 scripts_base_url_9=https://gitee.com/SuperManito/scripts/raw/master/
 my_scripts_list_9="jd_jxzpk.js"
-
-## 皮卡丘
-scripts_base_url_10=${DownloadJudgment}https://raw.githubusercontent.com/curtinlv/JD-Script/main/
-my_scripts_list_10="jd_zjd.py"
 
 ## 免责声明：当作者的脚本不可拉取时，会临时启用别人 FORK 或搬运的库代替“官方渠道”
 
@@ -151,11 +147,9 @@ done
 grep -q "jdJxncTokens" ${ListCron} && sed -i '/&*jdJxncTokens/c#4 8 * * * bash jd jdJxncTokens' ${ListCron}
 grep -q "jddj_cookie" ${ListCron} && sed -i '/&*jddj_cookie/c#29 9 * * * bash jd jddj_cookie' ${ListCron}
 grep -q "jd_qqxing" ${ListCron} && sed -i '/&*jd_qqxing/c30 7 * * * bash jd jd_qqxing' ${ListCron}
-grep -q "jd_zjd" ${ListCron} && grep -q "jd_zjd.py" ${ListCron} || sed -i "/&*jd_zjd/c7 * * * * export zlzh=[''] && python3 /jd/scripts/jd_zjd.py" ${ListCron}
 
 ## bug fix
 [ -f ${ScriptsDir}/main.3b9712aa.js ] && rm -rf ${ScriptsDir}/main.3b9712aa.js
-grep -q '7 \* \* \* \* bash jd | python3 /jd/scripts/jd_zjd.py' ${ListCron} && sed -i "/&*jd_zjd/c7 * * * * export zlzh=[''] && python3 /jd/scripts/jd_zjd.py" ${ListCron}
 
 ## 删除过期脚本和其定时
 rm -rf ${ScriptsDir}/jd_necklace.js
