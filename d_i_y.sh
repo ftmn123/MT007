@@ -148,11 +148,8 @@ grep -q "jdJxncTokens" ${ListCron} && sed -i '/&*jdJxncTokens/c#4 8 * * * bash j
 grep -q "jddj_cookie" ${ListCron} && sed -i '/&*jddj_cookie/c#29 9 * * * bash jd jddj_cookie' ${ListCron}
 grep -q "jd_qqxing" ${ListCron} && sed -i '/&*jd_qqxing/c30 7 * * * bash jd jd_qqxing' ${ListCron}
 
-## bug fix
-[ -f ${ScriptsDir}/main.3b9712aa.js ] && rm -rf ${ScriptsDir}/main.3b9712aa.js
-
 ## 删除过期脚本和其定时
+sed -i "/sendNotify/d" ${ListCron}
 rm -rf ${ScriptsDir}/jd_necklace.js
-rm -rf ${ScriptsDir}/ddo_pk.js && sed -i "/ddo_pk/d" ${ListCron}
 rm -rf ${ScriptsDir}/jddj_fruit_code.js && sed -i "/jddj_fruit_code/d" ${ListCron}
 rm -rf ${ScriptsDir}/jd_superBrand.js && sed -i "/jd_superBrand/d" ${ListCron}
