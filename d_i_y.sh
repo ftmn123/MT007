@@ -65,7 +65,7 @@ fi
 
 ##############################  作  者  昵  称  &  脚  本  地  址  &  脚  本  名  称  （必填）  ##############################
 
-author_list="ftmn123 passerby-b LongZhuZhu panghu moposmall zsm85887823 SuperManito curtinlv"
+author_list="ftmn123 passerby-b LongZhuZhu panghu moposmall zsm85887823 SuperManito"
 
 ## 京喜财富岛
 scripts_base_url_1=${DownloadJudgment}https://github.com/ftmn123/MT007/blob/master/
@@ -95,10 +95,6 @@ my_scripts_list_6="Andy_sendBeans.js"
 ## 京享值pk
 scripts_base_url_7=https://gitee.com/SuperManito/scripts/raw/master/
 my_scripts_list_7="jd_jxzpk.js"
-
-## 皮卡丘
-scripts_base_url_8=${DownloadJudgment}https://raw.githubusercontent.com/curtinlv/JD-Script/main/
-my_scripts_list_8="jd_zjd.py"
 
 ## 免责声明：当作者的脚本不可拉取时，会临时启用别人 FORK 或搬运的库代替“官方渠道”
 
