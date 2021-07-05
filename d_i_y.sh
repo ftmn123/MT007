@@ -65,10 +65,10 @@ fi
 
 ##############################  作  者  昵  称  &  脚  本  地  址  &  脚  本  名  称  （必填）  ##############################
 
-author_list="ftmn123 ZCY01 passerby-b LongZhuZhu Wenmoux panghu MoPoQAQ Andy Public Curtin"
+author_list="ftmn123 passerby-b LongZhuZhu panghu moposmall zsm85887823 SuperManito curtinlv"
 
 ## 京喜财富岛
-scripts_base_url_1=https://github.com/ftmn123/MT007/blob/master/
+scripts_base_url_1=${DownloadJudgment}https://github.com/ftmn123/MT007/blob/master/
 my_scripts_list_1="sendNotify.js mtd_q_j_d.js mtd_super_Brand.js mtd_t_r_y.js mtx_dream_Factory.js mtd_qq_xing.js mtd_european_cup.js"
 
 ## 京东到家
