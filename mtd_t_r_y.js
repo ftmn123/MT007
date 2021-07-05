@@ -8,13 +8,8 @@ update 2021/6/7
 # 取关京东店铺商品，请在 boxjs 修改取消关注店铺数量
 5 10 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_unsubscribe.js, tag=取关京东店铺商品, enabled=true
 
-
-
 # 京东试用
-30 10 * * * https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_try.js, tag=京东试用, 
-
-# 京东试用
-46 10,18 * * * 
+46 10,18 * * * http
 */
 const $ = new Env('X东试用')
 //const cookieNAM = [];
