@@ -1,16 +1,7 @@
 /*
-特物Z|万物皆可国创
-抄自 @yangtingxiao 抽奖机脚本
-
 [task_local]
 #特物Z|万物皆可国创
-32 12 2-18 6 * https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_superBrand.js, tag=特物Z|万物皆可国创, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
-
-================Loon==============
-[Script]
-cron "30 11 1-18 6 *" script-path=https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_superBrand.js tag=特物Z|万物皆可国创
-
-
+32 12 2-18 7 * 
  */
 const $ = new Env('特物Z|万物皆可国创');
 //Node.js用户请在jdCookie.js处填写京东ck;
