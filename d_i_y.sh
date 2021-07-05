@@ -68,12 +68,12 @@ fi
 author_list="ftmn123 ZCY01 passerby-b LongZhuZhu Wenmoux panghu MoPoQAQ Andy Public Curtin"
 
 ## 京喜财富岛
-scripts_base_url_1=https://github.com/ftmn123/my_script/blob/main/
+scripts_base_url_1=${DownloadJudgment}https://github.com/ftmn123/mt007/blob/master/
 my_scripts_list_1="sendNotify.js mtd_q_j_d.js mtd_super_Brand.js mtd_t_r_y.js mtx_dream_Factory.js mtd_qq_xing.js mtd_european_cup.js"
 
 ## 京东到家
-scripts_base_url_3=${DownloadJudgment}https://raw.githubusercontent.com/passerby-b/JDDJ/main/
-my_scripts_list_3="jddj_fruit.js jddj_fruit_collectWater.js jddj_bean.js jddj_plantBeans.js jddj_getPoints.js jddj_cookie.js"
+scripts_base_url_2=${DownloadJudgment}https://raw.githubusercontent.com/passerby-b/JDDJ/main/
+my_scripts_list_2="jddj_fruit.js jddj_fruit_collectWater.js jddj_bean.js jddj_plantBeans.js jddj_getPoints.js jddj_cookie.js"
 
 ## 龙王
 scripts_base_url_4=${DownloadJudgment}https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/

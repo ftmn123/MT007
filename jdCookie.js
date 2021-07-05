@@ -3,22 +3,9 @@
  */
 //此处填写京东账号cookie。
 let CookieJDs = [
-  'pt_key=AAJg38q7ADCgDPmdKM4YtvnDOJKIwv3PbIHlt9Asz7ywQ-N0pAzprxQGIXPQN75N0UonlteRFZY;pt_pin=ftmn123;',
-  'pt_key=AAJg38zvADC59sQYlmM1yckEh1a5LxbtJqX4aMoLlHtuxrU38qHHi_RhKjaW2qUz_rr3OOf6sWw;pt_pin=jd_52ec557a686ec;',
-  // 'pt_key=AAJgsMD3ADC9CanD68tqIzaLqZOI2a9RBhgrwglGG65pdym0ueNDrkfbueqVrPcphZuJ3PUEaWE;pt_pin=hayatee;',
-    'pt_key=AAJg381UADBVopZ1CSf2846nThifSCMfn4KhsShnuxtP7x09_HOelOXMezXJEjOnWdEmS8xrEAQ;pt_pin=jd_LSrPEmCuZJOz;',
-  'pt_key=AAJg3898ADAVy0ZhtfSjpYwpAD3-cV5Z5nRs0wnTSpvte9klyDyLFi-Hvv-8PLZw_LfzuiiWwzk;pt_pin=jd_qOluzcybAHzz;',
- //  'pt_key=AAJgyEziADDcwEOEy_1zIx4_jnUHi_CELC8nOI5R_LBQOSYn9bgzdvfSHQEPK3fuxB0-bLNocCo;pt_pin=jd_7b18b6c460c52;',
- //   'pt_key=AAJgxC1RADD-BxCZUT5YkUb9Ngc757Ewil3KYpydLIBGf-plY3qHLOHpY5j65GKiyD2YlYksoxw;pt_pin=jd_532079564a7f6;',
-  //  'pt_key=AAJgsbi7ADAvYB2lXkWHWF8b_eDMZrGDoET-0Sa5zH-JBB9BJgFdFDyevOoYivT2bxVHSUXB_cI;pt_pin=lodlf1983;',
-  //  'pt_key=AAJgsbhDADCDcdeq1bPLSzjalZoCXdlggb4S43v-5sFmZnX1gV5XKNT9KRRw80UDxoDvuZzJKvs;pt_pin=jd_dHCJgYjDIQAR;',
- //   'pt_key=AAJgvWU9ADCsP92EQtQi2QxhDnfUDUTNhxdq9nZT527jNhSNK4kn5ymZm6iHW2jBiCDgN0zzCB8;pt_pin=jd_5e47edeaef0e9;',
-  //  'pt_key=AAJgxdq2ADBMO2f4qeGzoUiEfOvCriAKIqDMBhrrCWGVKIc8zkXESvA45tzECNDQPb5XpEclv1s;pt_pin=alohatt;',
+
 ]
-let CookieNames = [
-    '',
-    '',
-    ]
+
 // 判断环境变量里面是否有京东ck
 if (process.env.JD_COOKIE) {
   if (process.env.JD_COOKIE.indexOf('&') > -1) {
