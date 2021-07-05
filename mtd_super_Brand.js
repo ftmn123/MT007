@@ -1,7 +1,7 @@
 /*
 [task_local]
 #特物Z|万物皆可国创
-32 12 2-18 7 * 
+32 12 2-18 7 * http
  */
 const $ = new Env('特物Z|万物皆可国创');
 //Node.js用户请在jdCookie.js处填写京东ck;
