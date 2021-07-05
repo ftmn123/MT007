@@ -5,7 +5,7 @@ Date: 2021/7/4 上午10:02
 抄于Author: Curtin 的jd_qjd.py
 ================Loon==============
 [Script]
-cron "10 0,7,23 * * *" script-path=jd_qjd.js
+10 0-8/1 * * * http
 
  */
 const $ = new Env('抢京豆');
