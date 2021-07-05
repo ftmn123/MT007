@@ -68,7 +68,7 @@ fi
 author_list="ftmn123 ZCY01 passerby-b LongZhuZhu Wenmoux panghu MoPoQAQ Andy Public Curtin"
 
 ## 京喜财富岛
-scripts_base_url_1=https://github.com/ftmn123/my_script/blob/main/
+scripts_base_url_1=${DownloadJudgment}https://github.com/ftmn123/MT007/blob/master/
 my_scripts_list_1="sendNotify.js mtd_q_j_d.js mtd_super_Brand.js mtd_t_r_y.js mtx_dream_Factory.js mtd_qq_xing.js mtd_european_cup.js"
 
 ## 京东到家
