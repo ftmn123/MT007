@@ -1,18 +1,15 @@
 /*
 特物Z|万物皆可国创
 抄自 @yangtingxiao 抽奖机脚本
-活动入口：
-更新地址：https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_superBrand.js
-已支持IOS双京东账号, Node.js支持N个京东账号
-脚本兼容: QuantumultX, Surge, Loon, 小火箭，JSBox, Node.js
-============Quantumultx===============
+
 [task_local]
 #特物Z|万物皆可国创
-32 12 1-18 6 * https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_superBrand.js, tag=特物Z|万物皆可国创, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+32 12 2-18 6 * https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_superBrand.js, tag=特物Z|万物皆可国创, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 
 ================Loon==============
 [Script]
 cron "30 11 1-18 6 *" script-path=https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_superBrand.js tag=特物Z|万物皆可国创
+
 
  */
 const $ = new Env('特物Z|万物皆可国创');
