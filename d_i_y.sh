@@ -68,40 +68,37 @@ fi
 author_list="ftmn123 ZCY01 passerby-b LongZhuZhu Wenmoux panghu MoPoQAQ Andy Public Curtin"
 
 ## 京喜财富岛
-scripts_base_url_1=https://github.com/ftmn123/my_script/blob/main/
+scripts_base_url_1=https://github.com/ftmn123/MT007/blob/master/
 my_scripts_list_1="sendNotify.js mtd_q_j_d.js mtd_super_Brand.js mtd_t_r_y.js mtx_dream_Factory.js mtd_qq_xing.js mtd_european_cup.js"
 
 ## 京东到家
-scripts_base_url_3=${DownloadJudgment}https://raw.githubusercontent.com/passerby-b/JDDJ/main/
-my_scripts_list_3="jddj_fruit.js jddj_fruit_collectWater.js jddj_bean.js jddj_plantBeans.js jddj_getPoints.js jddj_cookie.js"
+scripts_base_url_2=${DownloadJudgment}https://raw.githubusercontent.com/passerby-b/JDDJ/main/
+my_scripts_list_2="jddj_fruit.js jddj_fruit_collectWater.js jddj_bean.js jddj_plantBeans.js jddj_getPoints.js jddj_cookie.js"
 
 ## 龙王
-scripts_base_url_4=${DownloadJudgment}https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/
-my_scripts_list_4="long_half_redrain.js long_super_redrain.js"
+scripts_base_url_3=${DownloadJudgment}https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/
+my_scripts_list_3="long_half_redrain.js long_super_redrain.js"
 
-## Wenmoux
-scripts_base_url_5=${DownloadJudgment}https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/
-my_scripts_list_5="jd_SplitRedPacket.js jd_ddnc_farmpark.js chinnkarahoi_jd_bookshop.js "
 
 ## 柠檬/panghu
-scripts_base_url_6=${DownloadJudgment}https://raw.githubusercontent.com/panghu999/panghu/master/
-my_scripts_list_6="jd_wsdlb.js jd_hwsx.js"
+scripts_base_url_4=${DownloadJudgment}https://raw.githubusercontent.com/panghu999/panghu/master/
+my_scripts_list_4="jd_wsdlb.js jd_hwsx.js"
 
 ## moposmall
-scripts_base_url_7=${DownloadJudgment}https://raw.githubusercontent.com/moposmall/Script/main/Me/
-my_scripts_list_7="jx_mc_coin.js jx_mc_emptycabbage.js"
+scripts_base_url_5=${DownloadJudgment}https://raw.githubusercontent.com/moposmall/Script/main/Me/
+my_scripts_list_5="jx_mc_coin.js jx_mc_emptycabbage.js"
 
 ## Andy
-scripts_base_url_8=${DownloadJudgment}https://raw.githubusercontent.com/zsm85887823/AndyJD/main/own/
-my_scripts_list_8="Andy_sendBeans.js"
+scripts_base_url_6=${DownloadJudgment}https://raw.githubusercontent.com/zsm85887823/AndyJD/main/own/
+my_scripts_list_6="Andy_sendBeans.js"
 
 ## 京享值pk
-scripts_base_url_9=https://gitee.com/SuperManito/scripts/raw/master/
-my_scripts_list_9="jd_jxzpk.js"
+scripts_base_url_7=https://gitee.com/SuperManito/scripts/raw/master/
+my_scripts_list_7="jd_jxzpk.js"
 
 ## 皮卡丘
-scripts_base_url_10=${DownloadJudgment}https://raw.githubusercontent.com/curtinlv/JD-Script/main/
-my_scripts_list_10="jd_zjd.py"
+scripts_base_url_8=${DownloadJudgment}https://raw.githubusercontent.com/curtinlv/JD-Script/main/
+my_scripts_list_8="jd_zjd.py"
 
 ## 免责声明：当作者的脚本不可拉取时，会临时启用别人 FORK 或搬运的库代替“官方渠道”
 
@@ -151,11 +148,6 @@ done
 grep -q "jdJxncTokens" ${ListCron} && sed -i '/&*jdJxncTokens/c#4 8 * * * bash jd jdJxncTokens' ${ListCron}
 grep -q "jddj_cookie" ${ListCron} && sed -i '/&*jddj_cookie/c#29 9 * * * bash jd jddj_cookie' ${ListCron}
 grep -q "jd_qqxing" ${ListCron} && sed -i '/&*jd_qqxing/c30 7 * * * bash jd jd_qqxing' ${ListCron}
-grep -q "jd_zjd" ${ListCron} && grep -q "jd_zjd.py" ${ListCron} || sed -i "/&*jd_zjd/c7 * * * * export zlzh=[''] && python3 /jd/scripts/jd_zjd.py" ${ListCron}
-
-## bug fix
-[ -f ${ScriptsDir}/main.3b9712aa.js ] && rm -rf ${ScriptsDir}/main.3b9712aa.js
-grep -q '7 \* \* \* \* bash jd | python3 /jd/scripts/jd_zjd.py' ${ListCron} && sed -i "/&*jd_zjd/c7 * * * * export zlzh=[''] && python3 /jd/scripts/jd_zjd.py" ${ListCron}
 
 ## 删除过期脚本和其定时
 rm -rf ${ScriptsDir}/jd_necklace.js
