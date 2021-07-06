@@ -161,5 +161,5 @@ sed -i "/sendNotify/d" ${ListCron}
 echo -e "删除sendNotify定时任务...\n"
 ##替换JD.sh文件去掉ck限制
 #mv scripts/jd.sh /jd/
-sed -i 's/i = 1; i <= 35; i++/i = 1; i <= 135; i++/g' /jd/jd.sh
-echo -e "替换jd.sh文件去掉ck限制\n"
+sed -i 's/i = 1; i <= 35; i++/i = 1; i <= 135; i++/' /jd/jd.sh
+echo -e "修改jd.sh文件中ck限制，当前\n"
