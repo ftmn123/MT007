@@ -144,15 +144,22 @@ done
 ##############################  自  定  义  命  令  ##############################
 
 ## 修正定时
-grep -q "jdJxncTokens" ${ListCron} && sed -i '/&*jdJxncTokens/c#4 8 * * * bash jd jdJxncTokens' ${ListCron}
-grep -q "jddj_cookie" ${ListCron} && sed -i '/&*jddj_cookie/c#29 9 * * * bash jd jddj_cookie' ${ListCron}
-grep -q "jd_qqxing" ${ListCron} && sed -i '/&*jd_qqxing/c30 7 * * * bash jd jd_qqxing' ${ListCron}
+#grep -q "jdJxncTokens" ${ListCron} && sed -i '/&*jdJxncTokens/c#4 8 * * * bash jd jdJxncTokens' ${ListCron}
+#grep -q "jddj_cookie" ${ListCron} && sed -i '/&*jddj_cookie/c#29 9 * * * bash jd jddj_cookie' ${ListCron}
+#grep -q "jd_qqxing" ${ListCron} && sed -i '/&*jd_qqxing/c30 7 * * * bash jd jd_qqxing' ${ListCron}
 
 ## bug fix
-[ -f ${ScriptsDir}/main.3b9712aa.js ] && rm -rf ${ScriptsDir}/main.3b9712aa.js
+#[ -f ${ScriptsDir}/main.3b9712aa.js ] && rm -rf ${ScriptsDir}/main.3b9712aa.js
 
 ## 删除过期脚本和其定时
 rm -rf ${ScriptsDir}/jd_necklace.js
-sed -i "/sendNotify/d" ${ListCron}
 rm -rf ${ScriptsDir}/jddj_fruit_code.js && sed -i "/jddj_fruit_code/d" ${ListCron}
 rm -rf ${ScriptsDir}/jd_superBrand.js && sed -i "/jd_superBrand/d" ${ListCron}
+
+##替换自定义的sendNotify文件
+sed -i "/sendNotify/d" ${ListCron}
+echo -e "删除sendNotify定时任务...\n"
+##替换JD.sh文件去掉ck限制
+#mv scripts/jd.sh /jd/
+sed -i 's/i = 1; i <= 35; i++/i = 1; i <= 135; i++/g' /jd/jd.sh
+echo -e "替换jd.sh文件去掉ck限制\n"
