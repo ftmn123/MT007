@@ -74,6 +74,7 @@ my_scripts_list_5="jd_wsdlb.js jd_hwsx.js"
 scripts_base_url_6=${DownloadJudgment}https://raw.githubusercontent.com/moposmall/Script/main/Me/
 my_scripts_list_6="jx_mc_coin.js jx_mc_emptycabbage.js"
 
+
 ## Andy
 scripts_base_url_7=${DownloadJudgment}https://raw.githubusercontent.com/zsm85887823/AndyJD/main/own/
 my_scripts_list_7="Andy_sendBeans.js"
