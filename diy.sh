@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-## Update: 2021-06-30
+## Update: 2021-07-07 12-41
 ## 更新说明：
 
 ## 当前脚本清单（以脚本名前缀排序）
@@ -18,34 +18,17 @@
 # jx_cfdtx.js                                  京喜财富岛提现
 # jx_mc_coin.js                             京喜牧场收集金币
 # jx_mc_emptycabbage.js            京喜牧场清空白菜
-# Andy_sendBeans.js                   送豆得豆
-# chinnkarahoi_jd_bookshop.js   口袋书店(修复版)
-# long_half_redrain.js                  半点红包雨
-# long_super_redrain.js               整点红包雨
-
 
 ## Python 脚本：
 ## 需要先手动安装环境，进容器执行懒人一键命令： apk --no-cache add -f python3 py3-pip && cd /jd/scripts && pip3 install requests 
 
-# jd_zjd.py                                   赚京豆                             (号多才有用，需配合全局环境变量使用 export zlzh=[''] ，单引号中填入用户名（pt_pin的值）或昵称，理解不了就看脚本里的注释内容，多个号用逗号隔开。需要手动改下定时任务)
-
-
 ## 一次性活动脚本：
-
 
 ##############################  近  期  删  除  的  活  动  脚  本  ##############################
 # jd_necklace.js
 # ddo_pk.js
 # jddj_fruit_code.js
 # jd_superBrand.js
-
-##############################  京  东  到  家  ##############################
-
-## jddj_fruit.js                             京东到家 果园任务
-## jddj_fruit_collectWater.js       京东到家 果园水车
-## jddj_getPoints.js                    京东到家 庄园领水滴
-## jddj_bean.js                           京东到家 鲜豆任务
-## jddj_plantBeans.js                 京东到家 鲜豆庄园
 
 ## 京东到家需开通 "到家果园" 活动，自行挑选水果种植跟东东农场类似
 ## 不想薅这个APP的羊毛就忽略这些脚本，顺便把定时任务注释掉
