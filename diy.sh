@@ -65,11 +65,11 @@ fi
 
 ##############################  作  者  昵  称  &  脚  本  地  址  &  脚  本  名  称  （必填）  ##############################
 
-author_list="ftmn123 ZCY01 passerby-b LongZhuZhu Wenmoux panghu MoPoQAQ Andy Public"
+author_list="ftmn123 ZCY01 passerby-b LongZhuZhu Wenmoux panghu MoPoQAQ Andy Public Public"
 
 ## 自定义
 scripts_base_url_1=${DownloadJudgment}https://github.com/ftmn123/mt007/blob/master/
-my_scripts_list_1="sendNotify.js mtd_q_j_d.js mtd_super_Brand.js mtd_t_r_y.js mtx_dream_Factory.js mtd_qq_xing.js mtd_european_cup.js mtd_dog_sEmploy.js"
+my_scripts_list_1="mts_joy_park.js mtd_q_j_d.js mtd_super_Brand.js mtd_t_r_y.js mtx_dream_Factory.js mtd_qq_xing.js mtd_european_cup.js mtd_dog_sEmploy.js"
 
 ## 京东到家
 scripts_base_url_2=${DownloadJudgment}https://raw.githubusercontent.com/passerby-b/JDDJ/main/
@@ -99,9 +99,9 @@ my_scripts_list_8="Andy_sendBeans.js"
 scripts_base_url_9=https://gitee.com/SuperManito/scripts/raw/master/
 my_scripts_list_9="jd_jxzpk.js"
 
-## dog乐园
+## 自定义通知
 scripts_base_url_10=${DownloadJudgment}https://github.com/ftmn123/mt007/blob/master/
-my_scripts_list_10="mtd_dog_sEmploy.js"
+my_scripts_list_10="sendNotify.js"
 
 ## 免责声明：当作者的脚本不可拉取时，会临时启用别人 FORK 或搬运的库代替“官方渠道”
 
