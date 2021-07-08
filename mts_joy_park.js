@@ -2,7 +2,7 @@
 TT007
 
 [Script]
-40 8-23/3 * * * http
+40 8-23/3 * * * mts_joy_park http
 */
 const $ = new Env('汪汪乐园每日任务');
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
@@ -343,6 +343,21 @@ function taskPostClientActionUrl(body,functionId) {
     }
   }
 }
+function BeantaskPostClientActionUrl(body,functionId) {
+  return {
+    url: `https://api.m.jd.com/client.action?${functionId?`functionId=${functionId}`:``}`,
+    body: body,
+    headers: {
+      'User-Agent':'jdltapp;iPhone;3.5.6;14.6;eac3e15e91fd380664fc7c788e8ab6a07805646d;network/4g;ADID/8F6CAEEA-5BF7-4F7E-86C3-A641C19CA832;hasUPPay/0;pushNoticeIsOpen/0;lang/zh_CN;model/iPhone13,2;addressid/1995295948;hasOCPay/0;appBuild/1070;supportBestPay/0;pv/41.26;apprpd/;ref/JDLTSubMainPageViewController;psq/2;ads/;psn/eac3e15e91fd380664fc7c788e8ab6a07805646d|112;jdv/0|kong|t_1000509960_|jingfen|bb9c79e4c4174521873879a27a707da4|1625071927291|1625071930;adk/;app_device/IOS;pap/JA2020_3112531|3.5.6|IOS 14.6;Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1',
+      'Content-Type':'application/x-www-form-urlencoded',
+      'Host':'api.m.jd.com',
+      'Origin':'https://joypark.jd.com',
+     // 'Referer':'https://joypark.jd.com/?activityId=LsQNxL7iWDlXUs6cFl-AAg&lng=113.387899&lat=22.512678&sid=4d76080a9da10fbb31f5cd43396ed6cw&un_area=19_1657_52093_0',
+      'Cookie': cookie,
+    }
+  }
+}
+
 function jsonParse(str) {
   if (typeof str == "string") {
     try {
