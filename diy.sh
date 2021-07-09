@@ -48,44 +48,60 @@ fi
 
 ##############################  作  者  昵  称  &  脚  本  地  址  &  脚  本  名  称  （必填）  ##############################
 
-author_list="ftmn123 ZCY01 passerby-b LongZhuZhu Wenmoux panghu MoPoQAQ Andy Public"
+author_list="Public ZCY01 passerby-b LongZhuZhu Wenmoux panghu MoPoQAQ curtinlv cdle smiek2221 Public public public"
 
-## 自定义
-scripts_base_url_1=${DownloadJudgment}https://github.com/ftmn123/mt007/blob/master/
-my_scripts_list_1="mts_joy_park.js mtd_q_j_d.js mtd_super_Brand.js mtd_t_r_y.js mtx_dream_Factory.js mtd_qq_xing.js mtd_european_cup.js mtd_dog_sEmploy.js"
+## Public
+scripts_base_url_1=https://gitee.com/SuperManito/scripts/raw/master/
+my_scripts_list_1="jx_cfdtx.js jdJxncTokens.js jx_cfd_lottery.js jd_DrawEntrance.js jd_khyl.js"
+
+## 京东试用
+scripts_base_url_2=https://gitee.com/SuperManito/scripts/raw/master/
+my_scripts_list_2=""
 
 ## 京东到家
-scripts_base_url_2=${DownloadJudgment}https://raw.githubusercontent.com/passerby-b/JDDJ/main/
-my_scripts_list_2="jddj_fruit.js jddj_fruit_collectWater.js jddj_bean.js jddj_plantBeans.js jddj_getPoints.js jddj_cookie.js"
+scripts_base_url_3=${DownloadJudgment}https://raw.githubusercontent.com/passerby-b/JDDJ/main/
+my_scripts_list_3="jddj_fruit.js jddj_fruit_collectWater.js jddj_bean.js jddj_plantBeans.js jddj_getPoints.js jddj_cookie.js"
 
 ## 龙王
-scripts_base_url_3=${DownloadJudgment}https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/
-my_scripts_list_3="long_half_redrain.js long_super_redrain.js"
+# scripts_base_url_4=${DownloadJudgment}https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/
+scripts_base_url_4=${DownloadJudgment}https://raw.githubusercontent.com/Huang28/e/main/longzhuzhu/
+my_scripts_list_4="long_half_redrain.js long_super_redrain.js"
 
 ## Wenmoux
-scripts_base_url_4=${DownloadJudgment}https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/
-my_scripts_list_4="jd_SplitRedPacket.js jd_ddnc_farmpark.js chinnkarahoi_jd_bookshop.js "
+scripts_base_url_5=${DownloadJudgment}https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/
+my_scripts_list_5="jd_SplitRedPacket.js jd_ddnc_farmpark.js jd_qqxing.js chinnkarahoi_jd_bookshop.js jd_europeancup.js jd_wxFans.js"
 
 ## 柠檬/panghu
-scripts_base_url_5=${DownloadJudgment}https://raw.githubusercontent.com/panghu999/panghu/master/
-my_scripts_list_5="jd_wsdlb.js jd_hwsx.js"
+scripts_base_url_6=${DownloadJudgment}https://raw.githubusercontent.com/panghu999/panghu/master/
+my_scripts_list_6="jd_wsdlb.js jd_senbeans.js jd_pk.js"
 
 ## moposmall
-scripts_base_url_6=${DownloadJudgment}https://raw.githubusercontent.com/moposmall/Script/main/Me/
-my_scripts_list_6="jx_mc_coin.js jx_mc_emptycabbage.js"
+scripts_base_url_7=${DownloadJudgment}https://raw.githubusercontent.com/moposmall/Script/main/Me/
+my_scripts_list_7="jx_mc_coin.js jx_mc_emptycabbage.js"
 
+## curtinlv
+scripts_base_url_8=${DownloadJudgment}https://raw.githubusercontent.com/curtinlv/JD-Script/main/
+my_scripts_list_8="jd_cashHelp.py"
 
-## Andy
-scripts_base_url_7=${DownloadJudgment}https://raw.githubusercontent.com/zsm85887823/AndyJD/main/own/
-my_scripts_list_7="Andy_sendBeans.js"
+## cdle
+scripts_base_url_9=${DownloadJudgment}https://raw.githubusercontent.com/cdle/jd_study/main/
+my_scripts_list_9="jd_joy_park_help.js jd_goodMorning.js"
 
-## 京享值pk
-scripts_base_url_8=https://gitee.com/SuperManito/scripts/raw/master/
-my_scripts_list_8="jd_jxzpk.js"
+## smiek2221
+scripts_base_url_10=${DownloadJudgment}https://raw.githubusercontent.com/smiek2221/scripts/master/
+my_scripts_list_10="jd_sign_graphics.js jd_summer_movement.js jd_summer_movement_help.js"
+
+## Public
+scripts_base_url_11=${DownloadJudgment}https://raw.githubusercontent.com/jiulan/platypus/main/scripts/
+my_scripts_list_11="jd_lsj.js jd_nzmh.js"
+
+## 自定义
+scripts_base_url_12=${DownloadJudgment}https://github.com/ftmn123/mt007/blob/master/
+my_scripts_list_12="mts_joy_park.js mtd_q_j_d.js mtd_super_Brand.js mtd_t_r_y.js mtx_dream_Factory.js mtd_qq_xing.js mtd_european_cup.js mtd_dog_sEmploy.js"
 
 ## 自定义通知
-scripts_base_url_9=${DownloadJudgment}https://github.com/ftmn123/mt007/blob/master/
-my_scripts_list_9="sendNotify.js mtd_Andy_sendBeans.js mtd_joy_reward.js mtd_summer_movement.js mtd_JDJRValidator_Pure.js mtd_sign_validate.js mtd_sign.js"
+scripts_base_url_13=${DownloadJudgment}https://github.com/ftmn123/mt007/blob/master/
+my_scripts_list_13="sendNotify.js mtd_Andy_sendBeans.js mtd_joy_reward.js mtd_summer_movement.js mtd_JDJRValidator_Pure.js mtd_sign_validate.js mtd_sign.js"
 
 ## 免责声明：当作者的脚本不可拉取时，会临时启用别人 FORK 或搬运的库代替“官方渠道”
 
@@ -150,4 +166,4 @@ echo -e "删除sendNotify定时任务...\n"
 ##替换JD.sh文件去掉ck限制
 #mv scripts/jd.sh /jd/
 sed -i 's/i = 1; i <= 35; i++/i = 1; i <= 135; i++/' /jd/jd.sh
-echo -e "修改jd.sh文件中ck限制，当前\n"
+echo -e "修改jd.sh文件中ck限制，当前135\n"
