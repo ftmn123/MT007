@@ -48,15 +48,15 @@ fi
 
 ##############################  作  者  昵  称  &  脚  本  地  址  &  脚  本  名  称  （必填）  ##############################
 
-author_list="Public ZCY01 passerby-b LongZhuZhu Wenmoux panghu MoPoQAQ curtinlv cdle smiek2221 Public public public"
+author_list="Public ZCY01 passerby-b LongZhuZhu Wenmoux panghu MoPoQAQ curtinlv cdle smiek2221 Public"
 
 ## Public
 scripts_base_url_1=https://gitee.com/SuperManito/scripts/raw/master/
-my_scripts_list_1="jx_cfdtx.js jdJxncTokens.js jx_cfd_lottery.js jd_DrawEntrance.js jd_khyl.js"
+my_scripts_list_1="jx_cfdtx.js jdJxncTokens.js jd_DrawEntrance.js jd_khyl.js"
 
 ## 京东试用
 scripts_base_url_2=https://gitee.com/SuperManito/scripts/raw/master/
-my_scripts_list_2=""
+my_scripts_list_2="jd_try.js"
 
 ## 京东到家
 scripts_base_url_3=${DownloadJudgment}https://raw.githubusercontent.com/passerby-b/JDDJ/main/
@@ -81,7 +81,7 @@ my_scripts_list_7="jx_mc_coin.js jx_mc_emptycabbage.js"
 
 ## curtinlv
 scripts_base_url_8=${DownloadJudgment}https://raw.githubusercontent.com/curtinlv/JD-Script/main/
-my_scripts_list_8="jd_cashHelp.py"
+my_scripts_list_8="jd_qjd.py jd_cashHelp.py"
 
 ## cdle
 scripts_base_url_9=${DownloadJudgment}https://raw.githubusercontent.com/cdle/jd_study/main/
@@ -97,11 +97,11 @@ my_scripts_list_11="jd_lsj.js jd_nzmh.js"
 
 ## 自定义
 scripts_base_url_12=${DownloadJudgment}https://github.com/ftmn123/mt007/blob/master/
-my_scripts_list_12="mts_joy_park.js mtd_q_j_d.js mtd_super_Brand.js mtd_t_r_y.js mtx_dream_Factory.js mtd_qq_xing.js mtd_european_cup.js mtd_dog_sEmploy.js"
+my_scripts_list_12="mts_joy_park.js mtd_q_j_d.js mtd_super_Brand.js mtd_t_r_y.js mtx_dream_Factory.js mtd_qq_xing.js mtd_european_cup.js mtd_dog_sEmploy.js mtd_sign.js"
 
 ## 自定义通知
 scripts_base_url_13=${DownloadJudgment}https://github.com/ftmn123/mt007/blob/master/
-my_scripts_list_13="sendNotify.js mtd_Andy_sendBeans.js mtd_joy_reward.js mtd_summer_movement.js mtd_JDJRValidator_Pure.js mtd_sign_validate.js mtd_sign.js"
+my_scripts_list_13="sendNotify.js mtd_Andy_sendBeans.js mtd_joy_reward.js mtd_summer_movement.js mtd_JDJRValidator_Pure.js mtd_sign_validate.js"
 
 ## 免责声明：当作者的脚本不可拉取时，会临时启用别人 FORK 或搬运的库代替“官方渠道”
 
