@@ -89,7 +89,7 @@ my_scripts_list_9="jd_joy_park_help.js jd_goodMorning.js"
 
 ## smiek2221
 scripts_base_url_10=${DownloadJudgment}https://raw.githubusercontent.com/smiek2221/scripts/master/
-my_scripts_list_10="jd_sign_graphics.js jd_summer_movement.js jd_summer_movement_help.js"
+my_scripts_list_10=""
 
 ## Public
 scripts_base_url_11=${DownloadJudgment}https://raw.githubusercontent.com/jiulan/platypus/main/scripts/
@@ -97,11 +97,11 @@ my_scripts_list_11="jd_lsj.js jd_nzmh.js"
 
 ## 自定义
 scripts_base_url_12=${DownloadJudgment}https://github.com/ftmn123/mt007/blob/master/
-my_scripts_list_12="mts_joy_park.js mtd_q_j_d.js mtd_super_Brand.js mtd_t_r_y.js mtx_dream_Factory.js mtd_qq_xing.js mtd_european_cup.js mtd_dog_sEmploy.js"
+my_scripts_list_12="mtd_sign.js mts_joy_park.js mtd_q_j_d.js mtd_super_Brand.js mtd_t_r_y.js mtx_dream_Factory.js mtd_qq_xing.js mtd_european_cup.js mtd_dog_sEmploy.js"
 
 ## 自定义通知
 scripts_base_url_13=${DownloadJudgment}https://github.com/ftmn123/mt007/blob/master/
-my_scripts_list_13="sendNotify.js mtd_Andy_sendBeans.js mtd_joy_reward.js mtd_summer_movement.js mtd_JDJRValidator_Pure.js mtd_sign_validate.js mtd_sign.js"
+my_scripts_list_13="sendNotify.js mtd_Andy_sendBeans.js mtd_joy_reward.js mtd_summer_movement.js mtd_summer_movement_help.js mtd_JDJRValidator_Pure.js mtd_sign_validate.js "
 
 ## 免责声明：当作者的脚本不可拉取时，会临时启用别人 FORK 或搬运的库代替“官方渠道”
 
@@ -159,11 +159,14 @@ done
 rm -rf ${ScriptsDir}/jd_necklace.js
 rm -rf ${ScriptsDir}/jddj_fruit_code.js && sed -i "/jddj_fruit_code/d" ${ListCron}
 rm -rf ${ScriptsDir}/jd_superBrand.js && sed -i "/jd_superBrand/d" ${ListCron}
+## 删除临时文件
+rm -rf ${ScriptsDir}/app.*.js
+echo -e "===========================删除燃夏脚本的临时文件...==========================\n"
 
 ##替换自定义的sendNotify文件
 sed -i "/sendNotify/d" ${ListCron}
-echo -e "删除sendNotify定时任务...\n"
+echo -e "===========================删除sendNotify定时任务...===========================\n"
 ##替换JD.sh文件去掉ck限制
 #mv scripts/jd.sh /jd/
 sed -i 's/i = 1; i <= 35; i++/i = 1; i <= 135; i++/' /jd/jd.sh
-echo -e "修改jd.sh文件中ck限制，当前\n"
+echo -e "===========================修改jd.sh文件中ck限制，当前===========================\n"
